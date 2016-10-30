@@ -1,0 +1,37 @@
+{
+  "name": "vagrant-ubuntu-trusty-64",
+  "normal": {
+    "knife_zero": {
+      "host": "192.168.50.14"
+    },
+    "tags": [
+
+    ]
+  },
+  "automatic": {
+    "fqdn": "vagrant-ubuntu-trusty-64",
+    "os": "linux",
+    "os_version": "3.13.0-100-generic",
+    "hostname": "vagrant-ubuntu-trusty-64",
+    "ipaddress": "10.0.2.15",
+    "roles": [
+
+    ],
+    "recipes": [
+
+    ],
+    "platform": "ubuntu",
+    "platform_version": "14.04",
+    "cloud_v2": null,
+    "chef_packages": {
+      "ohai": {
+        "version": "8.20.0",
+        "ohai_root": "/opt/chef/embedded/lib/ruby/gems/2.3.0/gems/ohai-8.20.0/lib/ohai"
+      },
+      "chef": {
+        "version": "12.15.19",
+        "chef_root": "/opt/chef/embedded/lib/ruby/gems/2.3.0/gems/chef-12.15.19/lib"
+      }
+    }
+  }
+}
