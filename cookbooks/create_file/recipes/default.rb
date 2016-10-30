@@ -6,3 +6,7 @@
 #
 # All rights reserved - Do Not Redistribute
 #
+
+file '/tmp/myenvironment' do
+  content node.chef_environment
+end
