@@ -18,7 +18,8 @@
 
     ],
     "recipes": [
-
+      "create_file",
+      "create_file::default"
     ],
     "platform": "ubuntu",
     "platform_version": "14.04",
