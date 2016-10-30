@@ -1,5 +1,6 @@
 {
   "name": "develop-server",
+  "chef_environment": "development",
   "normal": {
     "knife_zero": {
       "host": "192.168.50.14"
